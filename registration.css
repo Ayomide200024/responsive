@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(images/bg-intro-mobile.png); 
+    background-color: #ff7978;
+    opacity: 1;
+    font-family : 'Poppins', sans-serif;
+    box-sizing: border-box;
+  
+}
+.container {
+    margin: 10px auto;
+    padding: 2em;
+    text-align: center;
+}
+
+.writing {
+    margin-bottom: 30px;
+}
+.writing h1 {
+    color: white;
+}
+.writing p {
+    color: white;
+    font-size: 12px;
+}
+
+.form button.btn-1 {
+    background-color: #5d54a3;
+    border: none;
+    width: 100%;
+    font-family : 'Poppins', sans-serif;
+    padding: 1em 6em;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+}
+.form button.btn-1 span{
+    display: block;
+    text-align: center;
+    font-weight: 500;
+}
+.form button.btn-1 em {
+    font-style: normal;
+    font-weight: 500
+}
+
+form{
+    background: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+    margin-top: 20px;
+    
+
+}
+form input {
+    width: 90%;
+    font-family : 'Poppins', sans-serif;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 1em;
+   
+}
+form input:focus {
+    font-weight: 700;
+    outline-style: solid;
+}
+
+.form-control {
+    position: relative;
+    margin-bottom: 20px;
+}
+.form-control i {
+    position: absolute;
+    top: 13px;
+    right: 30px;
+    visibility: hidden;
+}
+.form-control small {
+    position: absolute;
+    right: 5px;
+    bottom: -15px;
+    color: #ff7978;
+    font-style: italic;
+    font-size: 10px;
+    visibility: hidden;
+}
+.form-control.error input {
+    border-color: hsl(0, 100%, 74%) ;
+}
+
+.form-control.success input {
+    border-color: green;
+}
+
+.form-control.error i {
+    visibility: visible;
+    color: hsl(0, 100%, 74%) ;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: hsl(0, 100%, 74%) ;
+}
+
+.form form button.last-btn {
+    background-color:#37cc8a;
+    border: none;
+    width: 100%;
+    padding: 1em;
+    color: white;
+    font-family : 'Poppins', sans-serif;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+
+.form form p {
+    font-size: 12px;
+    color: rgb(192, 191, 191) ;
+    margin-top: 10px;
+    font-weight: 100;
+}
+.form form p a {
+    color: #ff7978;
+    text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 850px){
+    .container{
+        display: flex;
+        width: 80%;
+        margin: 70px auto;
+    }
+
+    .writing{
+        width: 45%;
+        padding: 1em;
+        padding-left: .5em;
+        padding-top: 6em;
+        text-align: left;
+    }
+  p br {
+    display: none;
+  }
+  
+  
+}
