@@ -152,6 +152,9 @@ form input:focus {
         padding-top: 6em;
         text-align: left;
     }
+    .form{
+        padding-left:60px;
+    }
   p br {
     display: none;
   }
